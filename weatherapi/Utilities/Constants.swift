@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+struct Constants {
+    struct Keys {
+        //PUT API KEY HERE FROM https://openweathermap.org
+        static let weatherAPIKey = ""
+    }
+}

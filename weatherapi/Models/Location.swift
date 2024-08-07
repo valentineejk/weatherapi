@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+// MARK: - WeatherAPIElement
+struct Location: Decodable {
+    let name: String
+    let lat, lon: Double
+    let country, state: String
+}
